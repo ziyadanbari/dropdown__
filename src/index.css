@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary-400: #1c6b87;
+  --primary-500: #1c6b87;
+  --primary-600: #19617b;
+  --primary-700: #144c60;
+  --primary-800: #0f3b4a;
+  --primary-900: #0c2d39;
+
+  --alarm-500: #e81313;
+
+  --warning-500: #ffdd65;
+  --warning-600: #e8c95c;
+
+  --positive-500: #7dfa8a;
+  --positive-700: #59b262;
+
+  --background-color: #071d28;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  overflow: hidden;
+}
+
+#root {
+  min-height: inherit;
+}
+
+.custom_scroll_y::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.custom_scroll_y::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.custom_scroll_y::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.custom_scroll_y::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
