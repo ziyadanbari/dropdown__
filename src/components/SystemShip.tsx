@@ -71,7 +71,7 @@ const SystemShip = ({
             red,
             yellow,
             white,
-          }).map(([color, percent], i) => (
+          }).map(([color], i) => (
             <td
               key={i}
               className={`text-center !border-b-[3px] w-[32px]`}
@@ -99,8 +99,8 @@ const SystemShip = ({
                 width: "30px",
                 height: "30px",
                 background,
-                WebkitMaskImage: "radial-gradient(transparent 50%, black 50%)",
-                maskImage: "radial-gradient(transparent 50%, black 50%)",
+                WebkitMaskImage: "radial-gradient(transparent 50%, black 55%)",
+                maskImage: "radial-gradient(transparent 50%, black 55%)",
                 borderRadius: "50%",
               }}
             />

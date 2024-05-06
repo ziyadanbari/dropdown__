@@ -1,4 +1,5 @@
-import { MouseEventHandler, useState } from "react";
+/*@typescript-eslint/no-explicit-any */
+import { useState } from "react";
 import { ShipSystem } from "../types";
 import SystemShip from "./SystemShip";
 
